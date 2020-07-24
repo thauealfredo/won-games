@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src  --fix --max-warnings=0"
+    "lint": "eslint src --max-warnings=0",
+    "fix" : " eslint src  --fix",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "test:bail" : "npm test -- --findRelatedTests --bail"
   },
   "dependencies": {
     "next": "9.4.4",
@@ -14,6 +18,10 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "@types/jest": "^26.0.5",
     "@types/node": "^14.0.19",
     "@types/react": "^16.9.41",
     "@typescript-eslint/eslint-plugin": "^3.6.0",
@@ -24,6 +32,7 @@
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.0.6",
     "husky": "^4.2.5",
+    "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "typescript": "^3.9.6"
@@ -34,6 +43,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*": ["npm run lint --fix"]
+    "src/**/*": [
+      "npm run fix --fix", "npm run test:bail"
+    ]
   }
 }

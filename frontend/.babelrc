@@ -1,0 +1,4 @@
+/// serve para escrever o codigo do jest com coisas novaas de js, e o babel faz o compilador entender
+{
+    "presets": ["next/babel", "@babel/preset-typescript"]
+}
