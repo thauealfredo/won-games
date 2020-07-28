@@ -1,4 +1,12 @@
 /// serve para escrever o codigo do jest com coisas novaas de js, e o babel faz o compilador entender
 {
+    "plugins": [
+        [
+          "babel-plugin-styled-components",
+          {
+            "ssr": true
+          }
+        ]
+      ],
     "presets": ["next/babel", "@babel/preset-typescript"]
 }
