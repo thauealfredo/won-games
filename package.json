@@ -12,7 +12,7 @@
     "test:watch": "npm test -- --watch",
     "test:bail": "npm test  --findRelatedTests --bail",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s ./public"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.1",
