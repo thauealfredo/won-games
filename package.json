@@ -9,8 +9,8 @@
     "lint": "eslint src --max-warnings=0",
     "fix": " eslint src  --fix",
     "test": "jest",
-    "test:watch": "npm test -- --watch",
-    "test:bail": "npm test  --findRelatedTests --bail",
+    "test:watch": "yarn test --watch",
+    "test:bail": "yarn test --findRelatedTests --bail",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public"
   },
@@ -59,8 +59,8 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "npm run fix --fix",
-      "npm run -- test:bail "
+      "yarn fix",
+      "yarn test:bail "
     ]
   }
 }
