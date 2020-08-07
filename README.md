@@ -17,10 +17,12 @@
 
 <strong><h4>YARN</h4></strong>
 <p>yarn create next-app -e https://github.com/thauealfredo/boilerplate </p>
+<strong>yarn dev</strong>
 <hr>
 
 <strong><h4>NPM</h4></strong>
 <p>npx create next-app -e https://github.com/thauealfredo/boilerplate </p>
+<strong>npm run dev</strong>
 <br>
 
 
