@@ -2,19 +2,15 @@
 
 <h2 align="center">Base para NextJS com TypeScript</h2>
 
-Com:
-<br>
-<a href="https://jestjs.io/" target="blank" >JEST</a>
-<br>
-<a href="https://styled-components.com/" target="blank" >Styled Components </a>
-<br>
-<a href="https://storybook.js.org/" target="blank" >StoryBook</a>
-<br>
-<a href="https://eslint.org/" target="blank" >Eslint</a>
-+
-<a href="https://prettier.io/" target="blank" >Prettier</a>
-<br>
-<a href="https://github.com/typicode/husky" target="blank" >Husky Hook</a>
+- [TypeScript](https://www.typescriptlang.org/)
+- [NextJS](https://nextjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Storybook](https://storybook.js.org/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
 
 <hr>
 <h1 align="center">Install</h1>
